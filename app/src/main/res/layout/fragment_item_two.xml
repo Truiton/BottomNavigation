@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.truiton.bottomnavigation.ItemTwoFragment">
+
+    <ImageView
+        android:id="@+id/truiton_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/truiton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/truiton_image"
+        android:layout_centerHorizontal="true"
+        android:text="Fragment 2"
+        android:textSize="30sp"/>
+
+</RelativeLayout>
